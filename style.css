@@ -1,0 +1,37 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.Header {
+    background-color: #1f2937 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Header-Logo {
+    color: #f9faf8;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+.Header-Links {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-right: 10px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+    
+}
