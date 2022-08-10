@@ -119,8 +119,27 @@ a:link, a:visited {
     color: #1f2937;
 }
 
+.Bottom {
+    background-color: #3882f6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 25px;
+    margin: 100px 50px;
+    border-radius: 20px;
+}
+
+.Bottom-Text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
 button {
     background-color: #3882f6;
+    color: #f9faf8;
     font-size: large;
+    padding: 10px;
     margin: 10px;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
 }
