@@ -62,7 +62,7 @@ a:link, a:visited {
     padding: 10px;
 }
 
-img {
+.Intro-Image {
     display: flex;
     height: auto;
     width: 600px;
@@ -72,6 +72,31 @@ img {
     padding-bottom: 50px;
     flex: 1 0 auto;
     object-fit: cover;
+}
+
+.Info-Title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.Info-Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.Info-Text {
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.Info-Image {
+    height: auto;
+    width: 500px;
 }
 
 button {
