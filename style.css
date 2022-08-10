@@ -92,11 +92,31 @@ a:link, a:visited {
 .Info-Text {
     font-size: 18px;
     color: #1f2937;
+    text-align: center;
 }
 
 .Info-Image {
     height: auto;
     width: 500px;
+    border-radius: 30px;
+}
+
+.Quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    background-color: #e5e7eb;
+    padding: 100px 50px 100px;
+}
+
+.Quote-Person {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1f2937;
 }
 
 button {
